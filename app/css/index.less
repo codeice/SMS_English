@@ -1,0 +1,67 @@
+.left-box,.right-box{
+	position: relative;
+	min-height: 600px;
+	max-height: 890px;
+	overflow: hidden;
+	position: relative;
+}
+.left-box{
+	float: left;
+	width: 590px;
+
+}
+.right-box{
+	float: right;
+	width: 398px;
+	margin-top: 18px;
+}
+.pictures-show{
+	width: 100%;
+	position: absolute;
+	visibility: hidden;
+	li{
+		margin-top: 5px;
+		overflow: hidden;
+		position: relative;
+	}
+	.describe{
+		max-height: 45px;
+		padding: 2px 9px;
+		position: absolute;
+		bottom: 10px;
+		left:0;
+		color: #fff;
+		overflow: hidden;
+		z-index: 1;
+	}
+	img{
+		max-width: 100%;
+	}
+	.img-box{
+		max-width: 100%;
+		position: absolute;
+		top: 50%;
+	}
+}
+.align-left{
+	.img-box{
+		left: 0;
+	}
+}
+.align-right{
+	.img-box{
+		right:0;
+	}
+}
+.filter-30{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: #000;
+	opacity: 0.3;
+	filter: alpha(opacity=30);
+	top: 0;
+	left:0;
+	z-index: -1;
+
+}
